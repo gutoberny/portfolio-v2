@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+# Portfólio Profissional de Gustavo Berny
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao meu portfólio profissional! Este projeto foi desenvolvido para apresentar minha experiência, habilidades e projetos de forma visualmente atraente e responsiva.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **React**: Biblioteca JavaScript para construção de interfaces
+- **TypeScript**: Superset JavaScript com tipagem estática
+- **Material UI**: Biblioteca de componentes React seguindo o Material Design
+- **Framer Motion**: Biblioteca para animações fluidas
+- **react-scroll**: Para navegação suave entre as seções
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Layout responsivo para dispositivos móveis e desktops
+- Navegação suave entre seções
+- Animações de entrada e interação
+- Modo claro/escuro (em implementação)
+- Modal de detalhes para projetos
+- Formulário de contato funcional
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+O projeto segue uma estrutura organizada e modular:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+src/
+  ├── components/      # Componentes reutilizáveis
+  ├── data/            # Dados do perfil e projetos
+  ├── types/           # Definições de tipos TypeScript
+  ├── theme/           # Configurações de tema
+  ├── assets/          # Imagens e outros recursos estáticos
+  ├── App.tsx          # Componente principal
+  └── index.tsx        # Ponto de entrada
+```
 
-### `npm run build`
+## Como Executar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/seu-usuario/portfolio-v2.git
+cd portfolio-v2
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Instale as dependências:
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Execute o projeto em modo de desenvolvimento:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Acesse http://localhost:3000 no navegador
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Personalização
 
-## Learn More
+Para personalizar com suas próprias informações, edite os arquivos em `src/data/`:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `profileData.ts`: Informações pessoais, contato, experiência e educação
+- Adicione suas imagens em `public/images/`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Funcionalidades Futuras
+
+- Modo escuro/claro alternável
+- Blog integrado
+- Seção de depoimentos
+- Integração com API para projetos do GitHub
+- Estatísticas de visitas e interações
+
+---
+
+Desenvolvido por Gustavo Berny - [www.gustavoberny.com](https://www.gustavoberny.com)
