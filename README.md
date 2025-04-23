@@ -64,14 +64,6 @@ Para personalizar com suas próprias informações, edite os arquivos em `src/da
 - `profileData.ts`: Informações pessoais, contato, experiência e educação
 - Adicione suas imagens em `public/images/`
 
-## Funcionalidades Futuras
-
-- Modo escuro/claro alternável
-- Blog integrado
-- Seção de depoimentos
-- Integração com API para projetos do GitHub
-- Estatísticas de visitas e interações
-
 ---
 
 Desenvolvido por Gustavo Berny - [www.gustavoberny.com](https://www.gustavoberny.com)
